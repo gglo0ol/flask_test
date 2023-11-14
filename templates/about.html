@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>О нас только хорошо или никак</title>
+</head>
+<body>
+    <h1>О нас</h1>
+    <p>Мы - ваша компания. да да да</p>
+    <p><a href="/">На главную</a></p>
+    <p><a href="/contact">Контакты</a></p>
+    <ul>
+        {% for key, value in my_dict.items() %}
+            <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
